@@ -1,9 +1,0 @@
-﻿During sprint2 we had several things to improve upon. First, one of the aspects we did well was researching the needed sprites for Mega Man
-gutsman stage. Several were difficult to find. On the other hand, we had multiple management aspects we can fix for the next sprite. We had
-trouble assigning classes and tasks to people at an early stage of the sprint. We also had trouble committing the code with comments every 
-time because not every team member knew that you could attach comments to commits. We also had trouble committing our changes on a regular 
-basis that made it easier to avoid version control conflicts. In order to resolve these things in the future we will need to be more thorough 
-with documentation, commit our changes more frequently, and start planning earlier. 
-
-For example, one major issue we had was implementing the state machine to operate with the commands and sprites. We started implementing the 
-states fairly late and this problem would likely be able to be addressed using graders and Boggus if we had started earlier. 

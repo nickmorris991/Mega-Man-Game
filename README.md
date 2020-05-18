@@ -1,4 +1,4 @@
-﻿## Basic Project
+﻿## Project Overview
 
 - A replica of the 2D Mega Man. Uses state/behavioral design patterns.
 - Developed using the monogame engine.
@@ -12,15 +12,13 @@
 
 User Input controls: (there is no megaman crouch in our stage)
 
-HOLD DOWN M TO CHANGE TO MOUSE CONTROLS WHERE MEGAMAN FOLLOWS MOUSE (cheat)
+*hold down M to change to mouse controls where mega man follows the mouse (cheat)
 
-Up Arrow = Megaman jumps up
-A = Megaman Shoots
-Down Arrow = Megaman jumps down
-Left Arrow = Megaman runs left
-Right Arrow = Megaman runs right
-q = quit game
-
-
+- Up Arrow = Megaman jumps up
+- A = Megaman Shoots
+- Down Arrow = Megaman jumps down
+- Left Arrow = Megaman runs left
+- Right Arrow = Megaman runs right
+- q = quit game
 
 

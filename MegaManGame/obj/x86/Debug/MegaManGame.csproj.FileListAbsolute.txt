@@ -1,0 +1,36 @@
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\BigBlockSheet.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Level\GutsmanLevelData.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\MegaManGame.exe
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\MegaManGame.pdb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\obj\x86\Debug\MegaManGame.csprojAssemblyReference.cache
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\obj\x86\Debug\MegaManGame.csproj.CoreCompileInputs.cache
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\obj\x86\Debug\MegaManGame.csproj.CopyComplete
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\obj\x86\Debug\MegaManGame.exe
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\obj\x86\Debug\MegaManGame.pdb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\BigMountain1SpriteSheet.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\BigMountain2.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\BluePogoEnemySprite.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\GreenDoorSpriteSheet (2).xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\GreenFlyingEnemySprites.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\Gutsman.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\GutsManYellowBlockSheet (2).xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\MegaManCloudSprite.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\YellowHelmetEnemySprite.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\YellowMinerEnemySprite.xnb
+C:\Users\NickM\source\repos\MegaManGame\MegaManGame\bin\Windows\x86\Debug\Content\MegaManSpriteSheet.xnb

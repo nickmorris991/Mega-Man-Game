@@ -1,0 +1,19 @@
+﻿Author: Nathan Rauf
+Date: 2/20/2019
+Sprint 3
+File Under Review: LevelLoader.cs
+Author of (.cs) file: Nick Morris
+Minutes to complete: 10 mins
+
+Comments: 
+-Good job keeping private variables lowercase, specifically "private string LevelName".
+
+-A lot of built-in Monogame XML parsing is going on in here, so that's all easy to read and follow.
+
+-Each one of the CreateItem, CreateBlock, etc. methods is well named. It's very obvious to me what you were doing inside these, even before looking at the logic within the method.
+
+-The flow of logic throughout the file is clean. It's easy to see that you create all of the objects and then load them in that same order. I can also gather why you did this by following said order.
+
+-Xlocation and Ylocation are aptly named self explanatory
+
+-Each method uses its respective "add__" method, but what does that do? Maybe include a comment about what AddBackground() does, for example. How does this file work with ILevel?

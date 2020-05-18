@@ -1,0 +1,16 @@
+﻿Author: Nathan Rauf
+Date: 2/6/2019
+Sprint 2
+File Under Review: GreenPlatformSprite.cs
+Author of (.cs) file: Nick Morris
+Minutes to complete: 5 mins
+
+Comments: 
+-Variables are easy to read and rather self explanatory.
+
+-The logic within the class is clean and organized. Overall, it's really easy to read and follow.
+
+-"ToSlowDownFPS" isn't as clear as other variable names
+
+Hypothetical change: 
+Maybe have some comments explaining what the delay variables do as these are the only things that aren't as self explanatory.

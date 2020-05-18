@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB0BD773-3061-4DE8-ABDD-28903252ECF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MegaManGame</RootNamespace>
+    <AssemblyName>MegaManGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Background Sprites\AbstractBackground.cs" />
+    <Compile Include="Background Sprites\BackgroundSpriteFactory.cs" />
+    <Compile Include="Background Sprites\BigMountain1Sprite.cs" />
+    <Compile Include="Background Sprites\BigMountain2Sprite.cs" />
+    <Compile Include="Background Sprites\Cloud1Sprite.cs" />
+    <Compile Include="Background\BigMountain1.cs" />
+    <Compile Include="Background\BigMountain2.cs" />
+    <Compile Include="Background\Cloud1.cs" />
+    <Compile Include="Block Sprites\AbstractBlock.cs" />
+    <Compile Include="Block Sprites\BlockSpriteFactory.cs" />
+    <Compile Include="Block Sprites\GutsManYellowBlockSprite.cs" />
+    <Compile Include="Block Sprites\LeftVertSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\HorizSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\RightVertSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\SpikeSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\SupportBeamSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\VertSteelBlockSprite.cs" />
+    <Compile Include="Block Sprites\YellowBlockSprite.cs" />
+    <Compile Include="Blocks\GutsManYellowBlock.cs" />
+    <Compile Include="Blocks\HorizSteelBlock.cs" />
+    <Compile Include="Blocks\LeftVertSteelBlock.cs" />
+    <Compile Include="Blocks\RightVertSteelBlock.cs" />
+    <Compile Include="Blocks\SpikeSteelBlock.cs" />
+    <Compile Include="Blocks\SupportBeamSteelBlock.cs" />
+    <Compile Include="Blocks\VertSteelBlock.cs" />
+    <Compile Include="Blocks\YellowBlock.cs" />
+    <Compile Include="Collision.cs" />
+    <Compile Include="CollisionDetection\CollisionDetector.cs" />
+    <Compile Include="CollisionDetection\CollisionDirectionTEMP.cs" />
+    <Compile Include="CollisionHandlers\EnemyBlockCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\EnemyEnemyCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\EnemyPlayerProjectileCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\PlayerBlockCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\PlayerEnemyCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\PlayerEnemyProjectileCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\PlayerItemCollisionHandler.cs" />
+    <Compile Include="CollisionHandlers\PlayerSpikeCollisionHandler.cs" />
+    <Compile Include="CollisionManager\CollisionManager.cs" />
+    <Compile Include="Enemies\BluePogoEnemy.cs" />
+    <Compile Include="Enemies\GreenFlyingEnemy.cs" />
+    <Compile Include="Enemies\GutsMan.cs" />
+    <Compile Include="Enemies\YellowHelmetEnemy.cs" />
+    <Compile Include="Enemies\YellowMinerEnemy.cs" />
+    <Compile Include="Enemy Sprites\AbstractEnemy.cs" />
+    <Compile Include="Enemy Sprites\BluePogoSprite.cs" />
+    <Compile Include="Enemy Sprites\EnemySpriteFactory.cs" />
+    <Compile Include="Enemy Sprites\GreenFlyingSprite.cs" />
+    <Compile Include="Enemy Sprites\GutsManSprite.cs" />
+    <Compile Include="Enemy Sprites\YellowHelmetSprite.cs" />
+    <Compile Include="Enemy Sprites\YellowMiningSprite.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GamepadController.cs" />
+    <Compile Include="Interfaces\IBackground.cs" />
+    <Compile Include="Interfaces\IBlock.cs" />
+    <Compile Include="Interfaces\ICollision.cs" />
+    <Compile Include="Interfaces\ICollisionDetector.cs" />
+    <Compile Include="Interfaces\ICollisionManager.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IEnemy.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\ILevel.cs" />
+    <Compile Include="Interfaces\ILevelLoader.cs" />
+    <Compile Include="Interfaces\IPlayer.cs" />
+    <Compile Include="Interfaces\IPlayerState.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Interfaces\ISpriteFactory.cs" />
+    <Compile Include="Item Sprites\AbstractItem.cs" />
+    <Compile Include="Item Sprites\ThickOrangeRailingSprite.cs" />
+    <Compile Include="Item Sprites\GreenPlatformSprite.cs" />
+    <Compile Include="Item Sprites\HealthBarSprite.cs" />
+    <Compile Include="Item Sprites\ItemSpriteFactory.cs" />
+    <Compile Include="Item Sprites\EndOrangeRailingSprite.cs" />
+    <Compile Include="Item Sprites\SkinnyOrangeRailingSprite.cs" />
+    <Compile Include="Items\EndOrangeRailing.cs" />
+    <Compile Include="Items\GreenPlatform.cs" />
+    <Compile Include="Items\HealthBar.cs" />
+    <Compile Include="Items\SkinnyOrangeRailingSprite.cs" />
+    <Compile Include="Items\ThickOrangeRailing.cs" />
+    <Compile Include="KeyboardController.cs" />
+    <Compile Include="Level\Level.cs" />
+    <Compile Include="Level\LevelLoader.cs" />
+    <Compile Include="Player Commands\FaceLeftCommand.cs" />
+    <Compile Include="Player Commands\FaceRightCommand.cs" />
+    <Compile Include="Player Commands\MoveDownCommand.cs" />
+    <Compile Include="Player Commands\MoveUpCommand.cs" />
+    <Compile Include="Player Commands\PlayerIdleCommand.cs" />
+    <Compile Include="Player Commands\PlayerIdleShootingCommand.cs" />
+    <Compile Include="Player Commands\PlayerJumpingCommand.cs" />
+    <Compile Include="Player Commands\PlayerMouseControlCommand.cs" />
+    <Compile Include="Player Commands\PlayerJumpingShootingCommand.cs" />
+    <Compile Include="Player Commands\PlayerQuitCommand.cs" />
+    <Compile Include="Player Commands\PlayerRunningCommand.cs" />
+    <Compile Include="Player Commands\PlayerRunningShootingCommand.cs" />
+    <Compile Include="Player Commands\ShootingCommand.cs" />
+    <Compile Include="Player State Sprites\PlayerIdleShootingSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerIdleSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerJumpingShootingSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerJumpingSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerRunningShootingSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerRunningSprite.cs" />
+    <Compile Include="Player State Sprites\PlayerSpriteFactory.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateIdle.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateIdleReversed.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateIdleShooting.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateIdleShootingReversed.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateJumping.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateJumpingReversed.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateJumpingShooting.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateJumpingShootingReversed.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateRunning.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateRunningReversed.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateRunningShooting.cs" />
+    <Compile Include="PlayerStateClasses\PlayerStateRunningShootingReversed.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code Reviews\Sprint2\GraceCodeReadibilityCode.txt" />
+    <Content Include="Code Reviews\Sprint2\GracesCodeQualityReview.txt" />
+    <Content Include="Code Reviews\Sprint2\JackRuchCRQualitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\JackRuchCRreadabilitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\NathanRaufCRQualitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\NathanRaufCRreadabilitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\NickMorrisCRQualitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\NickMorrisCRreadabilitySprint2.txt" />
+    <Content Include="Code Reviews\Sprint2\Sprint2TeamReflection.txt" />
+    <Content Include="Code Reviews\Sprint3\NathanRaufCRreadabilitySprint3.txt" />
+    <Content Include="Code Reviews\Sprint3\NickMorrisCRreadabilitySprint3.txt" />
+    <Content Include="Code Reviews\Sprint3\Sprint3TeamReflection.txt" />
+    <EmbeddedResource Include="Level\GutsmanLevelData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Content\BigBlockSheet.png" />
+    <Content Include="Content\BigMountain1SpriteSheet.png" />
+    <Content Include="Content\BigMountain2.png" />
+    <Content Include="Content\BluePogoEnemySprite.png" />
+    <Content Include="Content\GreenDoorSpriteSheet %282%29.png" />
+    <Content Include="Content\GreenFlyingEnemySprites.png" />
+    <Content Include="Content\Gutsman.png" />
+    <Content Include="Content\GutsManYellowBlockSheet %282%29.png" />
+    <Content Include="Content\MegaManCloudSprite.png" />
+    <Content Include="Content\MegaManSpriteSheet.png" />
+    <Content Include="Content\YellowHelmetEnemySprite.png" />
+    <Content Include="Content\YellowMinerEnemySprite.png" />
+    <Content Include="Icon.ico" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+﻿Author: Jack Ruch
+Date: 2/6/2019
+Sprint 2
+File Under Review: PlayerSpriteFactory.cs
+Author of (.cs) file: Nathan Rauf
+
+Comments: 
+
+Hypothetical change: 

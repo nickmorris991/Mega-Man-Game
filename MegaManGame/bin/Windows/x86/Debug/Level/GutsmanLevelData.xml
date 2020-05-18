@@ -1,0 +1,161 @@
+<XnaContent>
+	<Asset Type="MegaManGame.LevelLoader">
+  <!--  Start Objects before first gap  -->
+    <Object>
+      <Type>Background</Type>
+      <Name>Cloud1</Name>
+      <XLocation>20</XLocation>
+      <YLocation>0</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Background</Type>
+      <Name>Cloud1</Name>
+      <XLocation>320</XLocation>
+      <YLocation>0</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Background</Type>
+      <Name>BigMountain1</Name>
+      <XLocation>50</XLocation>
+      <YLocation>50</YLocation>
+    </Object>
+    
+    <Object>
+      <Type>Background</Type>
+      <Name>BigMountain2</Name>
+      <XLocation>400</XLocation>
+      <YLocation>50</YLocation>
+    </Object>
+    
+    <Object>
+      <Type>Block</Type>
+      <Name>GutsManYellowBlock</Name>
+      <XLocation>360</XLocation>
+      <YLocation>360</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>HorizSteelBlock</Name>
+      <XLocation>540</XLocation>
+      <YLocation>370</YLocation>
+    </Object>
+    
+		<Object>
+		  <Type>Block</Type>
+		  <Name>VertSteelBlock</Name>
+		  <XLocation>630</XLocation>
+		  <YLocation>370</YLocation>
+		</Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>LeftVertSteelBlock</Name>
+      <XLocation>720</XLocation>
+      <YLocation>370</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>RightVertSteelBlock</Name>
+      <XLocation>380</XLocation>
+      <YLocation>150</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>SpikeSteelBlock</Name>
+      <XLocation>260</XLocation>
+      <YLocation>150</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>SupportBeamSteelBlock</Name>
+      <XLocation>140</XLocation>
+      <YLocation>150</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Block</Type>
+      <Name>YellowBlock</Name>
+      <XLocation>400</XLocation>
+      <YLocation>60</YLocation>
+    </Object>
+
+
+    <Object>
+      <Type>Block</Type>
+      <Name>YellowBlock</Name>
+      <XLocation>300</XLocation>
+      <YLocation>60</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Enemy</Type>
+      <Name>GreenFlyingEnemy</Name>
+      <XLocation>30</XLocation>
+      <YLocation>400</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Enemy</Type>
+      <Name>BluePogoEnemy</Name>
+      <XLocation>30</XLocation>
+      <YLocation>300</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Enemy</Type>
+      <Name>YellowHelmetEnemy</Name>
+      <XLocation>30</XLocation>
+      <YLocation>200</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Enemy</Type>
+      <Name>YellowMinerEnemy</Name>
+      <XLocation>30</XLocation>
+      <YLocation>100</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Enemy</Type>
+      <Name>GutsMan</Name>
+      <XLocation>30</XLocation>
+      <YLocation>15</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Item</Type>
+      <Name>EndOrangeRailing</Name>
+      <XLocation>540</XLocation>
+      <YLocation>60</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Item</Type>
+      <Name>GreenPlatform</Name>
+      <XLocation>510</XLocation>
+      <YLocation>150</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Item</Type>
+      <Name>SkinnyOrangeRailing</Name>
+      <XLocation>630</XLocation>
+      <YLocation>60</YLocation>
+    </Object>
+
+    <Object>
+      <Type>Item</Type>
+      <Name>ThickOrangeRailing</Name>
+      <XLocation>720</XLocation>
+      <YLocation>60</YLocation>
+    </Object>
+
+	</Asset>
+</XnaContent>
+
